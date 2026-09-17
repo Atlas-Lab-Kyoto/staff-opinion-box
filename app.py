@@ -39,7 +39,7 @@ if mode == "投稿フォーム（スタッフ用）":
         user_opinion = st.text_area(
             "職場への意見や改善してほしいことを入力してください",
             height=150,
-            placeholder="例: シフトの確定が遅くて予定が立てづらいです。もう少し早めに共有してもらえると助かります。"
+            placeholder="例: 令和なのに、雨漏りがひどいです。"
         )
         submitted = st.form_submit_button("この内容で送信する")
 
