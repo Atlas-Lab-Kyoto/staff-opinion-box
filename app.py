@@ -50,7 +50,7 @@ if mode == "投稿フォーム（スタッフ用）":
             with st.spinner("AIが意見を分類・整理して送信中..."):
                 try:
                     # Gemini API による自動解析
-                    model = genai.GenerativeModel("gemini-1.5-flash")
+                    model = genai.GenerativeModel("gemini-3-flash-preview")
                     
                     prompt = f"""
                     あなたは職場の改善意見を分析する優秀なアシスタントです。
