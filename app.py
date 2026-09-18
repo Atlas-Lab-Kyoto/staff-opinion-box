@@ -28,7 +28,7 @@ if not is_admin:
     st.write("職場の改善案や気になる点、設備の問題などを気軽にお寄せください。（匿名で送信されます）")
 
     with st.form("opinion_form"):
-        user_opinion = st.text_area("意見・要望内容", height=150, placeholder="例：バックヤードの棚整理について...")
+        user_opinion = st.text_area("意見・要望内容", height=150, placeholder="例：令和なのに雨漏りしてます…")
         submitted = st.form_submit_button("送信する")
 
     if submitted:
