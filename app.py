@@ -176,7 +176,7 @@ elif mode == "管理ダッシュボード（代表専用）":
                     st.info(target_row["original_text"])
                 
                 with col_right:
-                    st.markdown("**【会社交渉用・提案文章案】**")
+                    st.markdown("**【提案文章案】**")
                     st.success(target_row["action_plan"])
 
     except Exception as e:
